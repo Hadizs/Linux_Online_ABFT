@@ -531,7 +531,7 @@ int main(int argc, char ** argv) {
 	// Allocate 3 arrays on CPU
 
 	int nr_rows_A, nr_cols_A, nr_rows_B, nr_cols_B, nr_rows_C, nr_cols_C;
-	//nr_rows_A= atoi(argv[1]);xxxx
+	//nr_rows_A= atoi(argv[1]);
 	nr_rows_A = 2;
 	nr_cols_A = nr_cols_B = nr_rows_B = nr_rows_C = nr_rows_B = nr_cols_C = nr_rows_A;
 	//lda = m, ldb = k, ldc = m;
